@@ -55,7 +55,7 @@ $Q\in\mathbb{R}^{n\times k}$ the centered latent controls. Remove the component
 explained by those controls, then restore the declared diagonal covariance $D$:
 
 $$
-B=\operatorname*{argmin}_B\|S-QB\|_F^2,\qquad R=S-QB,
+B=\arg\min_B\|S-QB\|_F^2,\qquad R=S-QB,
 $$
 
 $$

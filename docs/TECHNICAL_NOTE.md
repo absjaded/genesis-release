@@ -64,7 +64,7 @@ the code), first solve the least-squares problem. Its residual has no component
 in the span of the controls:
 
 $$
-B=\operatorname*{argmin}_B\|S-QB\|_F^2,\qquad R=S-QB,\qquad Q^\top R=0.
+B=\arg\min_B\|S-QB\|_F^2,\qquad R=S-QB,\qquad Q^\top R=0.
 $$
 
 The residual's covariance generally differs from the declared target $D$.
@@ -118,7 +118,7 @@ small and larger cohorts.
 ## Executable ideal-marginal entropy bound
 
 The calculation bounds the expectation over iid samples from an ideal marginal.
-For centered iid feature vectors $x$ with covariance $C$, let $t=\operatorname{tr}C$,
+For centered iid feature vectors $x$ with covariance $C$, let $t=\mathrm{tr}C$,
 $R_2\geq\|x\|^2$, and $M_4=\mathbb{E}[\|x\|^2xx^\top]$.
 Let $A$ be unbiased sample covariance from $n$ rows. The finite-sample
 calculation begins with two identities:
@@ -129,17 +129,17 @@ $$
 $$
 
 $$
-\operatorname{Var}(\operatorname{tr}A)
-=\frac{\operatorname{tr}M_4-t^2}{n}
-+\frac{2\operatorname{tr}(C^2)}{n(n-1)}.
+\mathrm{Var}(\mathrm{tr}A)
+=\frac{\mathrm{tr}M_4-t^2}{n}
++\frac{2\mathrm{tr}(C^2)}{n(n-1)}.
 $$
 
 These determine an upper bound $V$ on trace variance and a correction
 $\epsilon=R_2/n+t/[n(n-1)]$. Bound the matrix-log term by $U$:
 
 $$
-\mathbb{E}[\operatorname{tr}(A\log A)]
-\leq\operatorname{tr}\!\left(C\log(C+\epsilon I)\right)\leq U.
+\mathbb{E}[\mathrm{tr}(A\log A)]
+\leq\mathrm{tr}\!\left(C\log(C+\epsilon I)\right)\leq U.
 $$
 
 The entropy bound then accounts for fluctuations in the trace used to normalize
@@ -159,13 +159,13 @@ To obtain the logarithmic bound without assuming commuting matrices, apply
 $\log x\leq x-1$ to eigenvalue ratios with eigenbasis-overlap weights:
 
 $$
-\operatorname{tr}(A\log A)-\operatorname{tr}(A\log B)
-\leq\operatorname{tr}(A^2B^{-1})-\operatorname{tr}A,\qquad B=C+\epsilon I.
+\mathrm{tr}(A\log A)-\mathrm{tr}(A\log B)
+\leq\mathrm{tr}(A^2B^{-1})-\mathrm{tr}A,\qquad B=C+\epsilon I.
 $$
 
 The second-moment bound cancels the right side in expectation. Jensen for
-$T\log T$ with $T=\operatorname{tr}A$, then Cauchy-Schwarz and
-$\operatorname{Var}(H)\leq\log(d)^2/4$, yields the entropy bound.
+$T\log T$ with $T=\mathrm{tr}A$, then Cauchy-Schwarz and
+$\mathrm{Var}(H)\leq\log(d)^2/4$, yields the entropy bound.
 
 The selected model's fixed ideal marginal has exact rational state masses, stored direction
 constants, uniform marginal copies, independent isotropic marks and radii 1/2

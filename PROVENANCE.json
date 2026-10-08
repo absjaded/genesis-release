@@ -17,12 +17,12 @@
       "sha256": "2675080c513e8ef09a9af7d9ec52e3093e6762b024c4ab592399c2418b4921d4"
     },
     "README.md": {
-      "bytes": 11133,
-      "sha256": "1fe93111a5560f24dad5cbacfbd8beb087cb96c9de0b500f0b677d0fc6858257"
+      "bytes": 11119,
+      "sha256": "a896654a73c3eb2363e6b6fe5b2923f39a50a7b6981fa982a17fd9f401e7544d"
     },
     "docs/TECHNICAL_NOTE.md": {
-      "bytes": 14958,
-      "sha256": "1feaeaabfc218eaa5d4e892612a46537d305dc2576a53d7e26b391fb1af55999"
+      "bytes": 14866,
+      "sha256": "ac2fc56d50d205e87b1c952742fc9cfeca0bdf4c134a1c25b8ae0b4e69e5c650"
     },
     "docs/figures/approach.svg": {
       "bytes": 2849,
@@ -179,12 +179,12 @@
       "sha256": "2675080c513e8ef09a9af7d9ec52e3093e6762b024c4ab592399c2418b4921d4"
     },
     "genesis/consolidation/release_template/README.md": {
-      "bytes": 11133,
-      "sha256": "1fe93111a5560f24dad5cbacfbd8beb087cb96c9de0b500f0b677d0fc6858257"
+      "bytes": 11119,
+      "sha256": "a896654a73c3eb2363e6b6fe5b2923f39a50a7b6981fa982a17fd9f401e7544d"
     },
     "genesis/consolidation/release_template/docs/TECHNICAL_NOTE.md": {
-      "bytes": 14958,
-      "sha256": "1feaeaabfc218eaa5d4e892612a46537d305dc2576a53d7e26b391fb1af55999"
+      "bytes": 14866,
+      "sha256": "ac2fc56d50d205e87b1c952742fc9cfeca0bdf4c134a1c25b8ae0b4e69e5c650"
     },
     "genesis/consolidation/release_template/docs/figures/approach.svg": {
       "bytes": 2849,
