@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genesis-geometry"
+version = "0.1.0"
+description = "Cross-representation analysis, controlled construction and numerical qualification"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5", "scipy==1.16.2", "scikit-learn==1.8.0"]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8,<4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools.package-data]
+genesis_core = ["data/*.json"]

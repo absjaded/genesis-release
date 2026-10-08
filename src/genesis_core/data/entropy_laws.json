@@ -1,0 +1,2911 @@
+{
+  "laws": [
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.4555245790382816,
+        "N": 0.07256732836487839
+      },
+      "gamma_roots": {
+        "M": {
+          "endpoint_ranks": [
+            1.2863976835537723,
+            109.37697301385447
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4555245790382816,
+          "gamma_bracket": [
+            0.45552457903828025,
+            0.4555245790382829
+          ],
+          "inherited_exact_gamma": true,
+          "row_population_rank": 30.000000000000174,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07256732836487839,
+          "gamma_bracket": [
+            0.07256732836487706,
+            0.07256732836487972
+          ],
+          "inherited_exact_gamma": true,
+          "row_population_rank": 7.200000000000056,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [],
+      "group_energy_increment": 0,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.18181818181818182,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": 2,
+      "joint_copy_law_changed": true,
+      "law_id": 10,
+      "marginal_geometry_changed": false,
+      "theta": 0.1875
+    },
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.45590519131316953,
+        "N": 0.07261947227897411
+      },
+      "gamma_roots": {
+        "M": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.45590519131316953,
+          "gamma_bracket": [
+            0.4559051913131682,
+            0.45590519131317087
+          ],
+          "row_population_rank": 30.00000000000015,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07261947227897411,
+          "gamma_bracket": [
+            0.07261947227897278,
+            0.07261947227897544
+          ],
+          "row_population_rank": 7.199999999999928,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [
+        10
+      ],
+      "group_energy_increment": 0.0625,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.24431818181818182,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": null,
+      "joint_copy_law_changed": true,
+      "law_id": 11,
+      "marginal_geometry_changed": true,
+      "theta": 0.1875
+    },
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.4563542625385796,
+        "N": 0.07268096802311386
+      },
+      "gamma_roots": {
+        "M": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4563542625385796,
+          "gamma_bracket": [
+            0.45635426253857825,
+            0.4563542625385809
+          ],
+          "row_population_rank": 29.999999999999815,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07268096802311386,
+          "gamma_bracket": [
+            0.07268096802311252,
+            0.07268096802311519
+          ],
+          "row_population_rank": 7.200000000000021,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [
+        10
+      ],
+      "group_energy_increment": 0.09375,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.2755681818181818,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": null,
+      "joint_copy_law_changed": true,
+      "law_id": 12,
+      "marginal_geometry_changed": true,
+      "theta": 0.1875
+    },
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.4569589557160083,
+        "N": 0.0727637282955842
+      },
+      "gamma_roots": {
+        "M": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4569589557160083,
+          "gamma_bracket": [
+            0.456958955716007,
+            0.45695895571600964
+          ],
+          "row_population_rank": 29.99999999999999,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.0727637282955842,
+          "gamma_bracket": [
+            0.07276372829558286,
+            0.07276372829558553
+          ],
+          "row_population_rank": 7.19999999999995,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [
+        10
+      ],
+      "group_energy_increment": 0.125,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.3068181818181818,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": null,
+      "joint_copy_law_changed": true,
+      "law_id": 13,
+      "marginal_geometry_changed": true,
+      "theta": 0.1875
+    },
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.45771115101685156,
+        "N": 0.07286660189140148
+      },
+      "gamma_roots": {
+        "M": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.45771115101685156,
+          "gamma_bracket": [
+            0.4577111510168502,
+            0.4577111510168529
+          ],
+          "row_population_rank": 29.99999999999983,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07286660189140148,
+          "gamma_bracket": [
+            0.07286660189140015,
+            0.07286660189140282
+          ],
+          "row_population_rank": 7.20000000000005,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [
+        10
+      ],
+      "group_energy_increment": 0.15625,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.3380681818181818,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": null,
+      "joint_copy_law_changed": true,
+      "law_id": 14,
+      "marginal_geometry_changed": true,
+      "theta": 0.1875
+    },
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.4586052692032683,
+        "N": 0.07298877815217156
+      },
+      "gamma_roots": {
+        "M": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4586052692032683,
+          "gamma_bracket": [
+            0.45860526920326694,
+            0.4586052692032696
+          ],
+          "row_population_rank": 30.000000000000014,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07298877815217156,
+          "gamma_bracket": [
+            0.07298877815217023,
+            0.07298877815217289
+          ],
+          "row_population_rank": 7.200000000000074,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [
+        10
+      ],
+      "group_energy_increment": 0.1875,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.3693181818181818,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": null,
+      "joint_copy_law_changed": true,
+      "law_id": 15,
+      "marginal_geometry_changed": true,
+      "theta": 0.1875
+    },
+    {
+      "coarse_coupling_states": [
+        10
+      ],
+      "coarse_share_probability": 0.25,
+      "eta": {
+        "M": 0.015625,
+        "N": 1e-10
+      },
+      "feature_scale": {
+        "M": 0.9922778767632815,
+        "N": 1.0
+      },
+      "gamma": {
+        "M": 0.46080671108913795,
+        "N": 0.07328909442553119
+      },
+      "gamma_roots": {
+        "M": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.46080671108913795,
+          "gamma_bracket": [
+            0.4608067110891366,
+            0.4608067110891393
+          ],
+          "row_population_rank": 29.999999999999936,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        "N": {
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07328909442553119,
+          "gamma_bracket": [
+            0.07328909442552986,
+            0.07328909442553252
+          ],
+          "row_population_rank": 7.200000000000002,
+          "status": "BRACKETED",
+          "target": 7.2
+        }
+      },
+      "geometry_states": [
+        10
+      ],
+      "group_energy_increment": 0.25,
+      "hierarchy": {
+        "10": {
+          "group_energy_fraction": 0.4318181818181818,
+          "group_size": 5,
+          "groups": 9,
+          "regular_simplex_fraction": 0.18181818181818182
+        }
+      },
+      "inherited_F905_law_id": 3,
+      "joint_copy_law_changed": true,
+      "law_id": 16,
+      "marginal_geometry_changed": true,
+      "theta": 0.1875
+    }
+  ],
+  "parent": {
+    "anchor_id": 1,
+    "copies": [
+      36,
+      43,
+      73,
+      60,
+      38,
+      39,
+      53,
+      35,
+      39,
+      124,
+      45,
+      88,
+      43,
+      51
+    ],
+    "gamma_tables": {
+      "M": [
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.43605527324592785,
+          "gamma_bracket": [
+            0.4360552732459265,
+            0.4360552732459292
+          ],
+          "row_population_rank": 26.00000000000019,
+          "status": "BRACKETED",
+          "target": 26.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4500092709755451,
+          "gamma_bracket": [
+            0.4500092709755438,
+            0.45000927097554644
+          ],
+          "row_population_rank": 28.000000000000085,
+          "status": "BRACKETED",
+          "target": 28.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4631833388293638,
+          "gamma_bracket": [
+            0.46318333882936247,
+            0.46318333882936513
+          ],
+          "row_population_rank": 29.999999999999854,
+          "status": "BRACKETED",
+          "target": 30.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.47567182052170287,
+          "gamma_bracket": [
+            0.47567182052170154,
+            0.4756718205217042
+          ],
+          "row_population_rank": 31.99999999999976,
+          "status": "BRACKETED",
+          "target": 32.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.4875527065497893,
+          "gamma_bracket": [
+            0.487552706549788,
+            0.48755270654979066
+          ],
+          "row_population_rank": 34.00000000000001,
+          "status": "BRACKETED",
+          "target": 34.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.49889124527228645,
+          "gamma_bracket": [
+            0.4988912452722851,
+            0.4988912452722878
+          ],
+          "row_population_rank": 36.000000000000064,
+          "status": "BRACKETED",
+          "target": 36.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.5097426045321358,
+          "gamma_bracket": [
+            0.5097426045321345,
+            0.5097426045321372
+          ],
+          "row_population_rank": 38.00000000000013,
+          "status": "BRACKETED",
+          "target": 38.0
+        },
+        {
+          "endpoint_ranks": [
+            1.1669927642786302,
+            107.39573032893873
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.520153869398059,
+          "gamma_bracket": [
+            0.5201538693980576,
+            0.5201538693980603
+          ],
+          "row_population_rank": 39.99999999999979,
+          "status": "BRACKETED",
+          "target": 40.0
+        }
+      ],
+      "N": [
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.06496559679798997,
+          "gamma_bracket": [
+            0.06496559679798863,
+            0.0649655967979913
+          ],
+          "row_population_rank": 6.600000000000011,
+          "status": "BRACKETED",
+          "target": 6.6
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.06754359831674156,
+          "gamma_bracket": [
+            0.06754359831674023,
+            0.06754359831674289
+          ],
+          "row_population_rank": 6.800000000000005,
+          "status": "BRACKETED",
+          "target": 6.8
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07007687903545834,
+          "gamma_bracket": [
+            0.07007687903545701,
+            0.07007687903545967
+          ],
+          "row_population_rank": 6.999999999999995,
+          "status": "BRACKETED",
+          "target": 7.0
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07256732836487839,
+          "gamma_bracket": [
+            0.07256732836487706,
+            0.07256732836487972
+          ],
+          "row_population_rank": 7.200000000000056,
+          "status": "BRACKETED",
+          "target": 7.2
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07501672322287331,
+          "gamma_bracket": [
+            0.07501672322287198,
+            0.07501672322287464
+          ],
+          "row_population_rank": 7.3999999999999355,
+          "status": "BRACKETED",
+          "target": 7.4
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.07742673550519061,
+          "gamma_bracket": [
+            0.07742673550518928,
+            0.07742673550519194
+          ],
+          "row_population_rank": 7.599999999999924,
+          "status": "BRACKETED",
+          "target": 7.6
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.0797989392297406,
+          "gamma_bracket": [
+            0.07979893922973927,
+            0.07979893922974193
+          ],
+          "row_population_rank": 7.799999999999953,
+          "status": "BRACKETED",
+          "target": 7.8
+        },
+        {
+          "endpoint_ranks": [
+            2.5485615444124896,
+            166.57175843164438
+          ],
+          "finite_or_P_reference_calibration": false,
+          "gamma": 0.08213481729094738,
+          "gamma_bracket": [
+            0.08213481729094604,
+            0.08213481729094871
+          ],
+          "row_population_rank": 8.000000000000098,
+          "status": "BRACKETED",
+          "target": 8.0
+        }
+      ]
+    },
+    "mark_profiles": {
+      "M": [
+        {
+          "eta": 1e-10,
+          "feature_scale": 1.0,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.43605527324592785,
+              "gamma_bracket": [
+                0.4360552732459265,
+                0.4360552732459292
+              ],
+              "row_population_rank": 26.00000000000019,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4500092709755451,
+              "gamma_bracket": [
+                0.4500092709755438,
+                0.45000927097554644
+              ],
+              "row_population_rank": 28.000000000000085,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4631833388293638,
+              "gamma_bracket": [
+                0.46318333882936247,
+                0.46318333882936513
+              ],
+              "row_population_rank": 29.999999999999854,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.47567182052170287,
+              "gamma_bracket": [
+                0.47567182052170154,
+                0.4756718205217042
+              ],
+              "row_population_rank": 31.99999999999976,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4875527065497893,
+              "gamma_bracket": [
+                0.487552706549788,
+                0.48755270654979066
+              ],
+              "row_population_rank": 34.00000000000001,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.49889124527228645,
+              "gamma_bracket": [
+                0.4988912452722851,
+                0.4988912452722878
+              ],
+              "row_population_rank": 36.000000000000064,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5097426045321358,
+              "gamma_bracket": [
+                0.5097426045321345,
+                0.5097426045321372
+              ],
+              "row_population_rank": 38.00000000000013,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1669927642786302,
+                107.39573032893873
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.520153869398059,
+              "gamma_bracket": [
+                0.5201538693980576,
+                0.5201538693980603
+              ],
+              "row_population_rank": 39.99999999999979,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        },
+        {
+          "eta": 9.5367431640625e-07,
+          "feature_scale": 0.9999995232131829,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.43605293403576706,
+              "gamma_bracket": [
+                0.4360529340357657,
+                0.4360529340357684
+              ],
+              "row_population_rank": 25.99999999999983,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.45000691617620225,
+              "gamma_bracket": [
+                0.4500069161762009,
+                0.4500069161762036
+              ],
+              "row_population_rank": 28.000000000000135,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.46318096899060635,
+              "gamma_bracket": [
+                0.463180968990605,
+                0.4631809689906077
+              ],
+              "row_population_rank": 30.00000000000011,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.47566943609896073,
+              "gamma_bracket": [
+                0.4756694360989594,
+                0.47566943609896206
+              ],
+              "row_population_rank": 31.999999999999986,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4875503079222039,
+              "gamma_bracket": [
+                0.48755030792220255,
+                0.4875503079222052
+              ],
+              "row_population_rank": 33.99999999999985,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4988888327562764,
+              "gamma_bracket": [
+                0.49888883275627505,
+                0.4988888327562777
+              ],
+              "row_population_rank": 35.999999999999964,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5097401783917641,
+              "gamma_bracket": [
+                0.5097401783917628,
+                0.5097401783917654
+              ],
+              "row_population_rank": 37.99999999999989,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1670120991019015,
+                107.39687592726493
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5201514298531014,
+              "gamma_bracket": [
+                0.5201514298531,
+                0.5201514298531027
+              ],
+              "row_population_rank": 39.99999999999991,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        },
+        {
+          "eta": 6.103515625e-05,
+          "feature_scale": 0.9999694838687863,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4359564703534353,
+              "gamma_bracket": [
+                0.435956470353434,
+                0.43595647035343665
+              ],
+              "row_population_rank": 26.000000000000107,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.44991011455084295,
+              "gamma_bracket": [
+                0.4499101145508416,
+                0.4499101145508443
+              ],
+              "row_population_rank": 27.999999999999886,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4630838380239253,
+              "gamma_bracket": [
+                0.46308383802392394,
+                0.4630838380239266
+              ],
+              "row_population_rank": 29.999999999999883,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.47557198217055063,
+              "gamma_bracket": [
+                0.4755719821705493,
+                0.47557198217055197
+              ],
+              "row_population_rank": 31.999999999999886,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.48745253566053526,
+              "gamma_bracket": [
+                0.4874525356605339,
+                0.4874525356605366
+              ],
+              "row_population_rank": 34.00000000000008,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4987907453825735,
+              "gamma_bracket": [
+                0.4987907453825722,
+                0.49879074538257484
+              ],
+              "row_population_rank": 35.99999999999981,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5096417779756914,
+              "gamma_bracket": [
+                0.5096417779756901,
+                0.5096417779756928
+              ],
+              "row_population_rank": 38.000000000000064,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1678936589968276,
+                107.44095741388213
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5200527175058036,
+              "gamma_bracket": [
+                0.5200527175058023,
+                0.520052717505805
+              ],
+              "row_population_rank": 39.99999999999982,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        },
+        {
+          "eta": 0.0009765625,
+          "feature_scale": 0.9995120761370544,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4350179578851141,
+              "gamma_bracket": [
+                0.43501795788511277,
+                0.43501795788511544
+              ],
+              "row_population_rank": 25.99999999999998,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4489731717790969,
+              "gamma_bracket": [
+                0.44897317177909557,
+                0.44897317177909823
+              ],
+              "row_population_rank": 28.000000000000146,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4621483249808739,
+              "gamma_bracket": [
+                0.46214832498087255,
+                0.4621483249808752
+              ],
+              "row_population_rank": 29.999999999999844,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4746377637727147,
+              "gamma_bracket": [
+                0.4746377637727134,
+                0.47463776377271605
+              ],
+              "row_population_rank": 32.00000000000007,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.48651948195571915,
+              "gamma_bracket": [
+                0.4865194819557178,
+                0.4865194819557205
+              ],
+              "row_population_rank": 33.99999999999985,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.49785873147619353,
+              "gamma_bracket": [
+                0.4978587314761922,
+                0.49785873147619486
+              ],
+              "row_population_rank": 35.999999999999964,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5087106837846505,
+              "gamma_bracket": [
+                0.5087106837846491,
+                0.5087106837846518
+              ],
+              "row_population_rank": 38.000000000000334,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                1.1778465520609407,
+                107.8198617727505
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5191224274249844,
+              "gamma_bracket": [
+                0.519122427424983,
+                0.5191224274249857
+              ],
+              "row_population_rank": 40.000000000000036,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        },
+        {
+          "eta": 0.015625,
+          "feature_scale": 0.9922778767632815,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.428146075607473,
+              "gamma_bracket": [
+                0.42814607560747164,
+                0.4281460756074743
+              ],
+              "row_population_rank": 26.000000000000153,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4422285233313239,
+              "gamma_bracket": [
+                0.44222852333132256,
+                0.44222852333132523
+              ],
+              "row_population_rank": 28.00000000000016,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4555245790382816,
+              "gamma_bracket": [
+                0.45552457903828025,
+                0.4555245790382829
+              ],
+              "row_population_rank": 30.000000000000174,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4681292504410951,
+              "gamma_bracket": [
+                0.46812925044109377,
+                0.46812925044109643
+              ],
+              "row_population_rank": 32.000000000000114,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4801210927353766,
+              "gamma_bracket": [
+                0.4801210927353753,
+                0.48012109273537795
+              ],
+              "row_population_rank": 33.99999999999999,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4915658382821957,
+              "gamma_bracket": [
+                0.49156583828219436,
+                0.491565838282197
+              ],
+              "row_population_rank": 35.99999999999977,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5025190727583004,
+              "gamma_bracket": [
+                0.5025190727582991,
+                0.5025190727583018
+              ],
+              "row_population_rank": 37.99999999999999,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                1.2863976835537723,
+                109.37697301385447
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5130282443404646,
+              "gamma_bracket": [
+                0.5130282443404632,
+                0.5130282443404659
+              ],
+              "row_population_rank": 40.0,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        },
+        {
+          "eta": 0.125,
+          "feature_scale": 0.9428090416292038,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4234134392297616,
+              "gamma_bracket": [
+                0.42341343922976027,
+                0.42341343922976293
+              ],
+              "row_population_rank": 25.999999999999943,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4390255410968159,
+              "gamma_bracket": [
+                0.4390255410968146,
+                0.43902554109681724
+              ],
+              "row_population_rank": 28.00000000000001,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.4537821129746482,
+              "gamma_bracket": [
+                0.4537821129746469,
+                0.45378211297464954
+              ],
+              "row_population_rank": 29.999999999999883,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.46778625968466303,
+              "gamma_bracket": [
+                0.4677862596846617,
+                0.46778625968466436
+              ],
+              "row_population_rank": 32.00000000000007,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.48112333461902435,
+              "gamma_bracket": [
+                0.481123334619023,
+                0.4811233346190257
+              ],
+              "row_population_rank": 34.000000000000064,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.49386483900736056,
+              "gamma_bracket": [
+                0.4938648390073592,
+                0.4938648390073619
+              ],
+              "row_population_rank": 36.000000000000064,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.506071301268388,
+              "gamma_bracket": [
+                0.5060713012683866,
+                0.5060713012683893
+              ],
+              "row_population_rank": 37.99999999999989,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                1.8172265720632088,
+                97.20878017902052
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5177944417128315,
+              "gamma_bracket": [
+                0.5177944417128302,
+                0.5177944417128328
+              ],
+              "row_population_rank": 40.00000000000007,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        },
+        {
+          "eta": 0.5,
+          "feature_scale": 0.8164965809685508,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5087756074495671,
+              "gamma_bracket": [
+                0.5087756074495657,
+                0.5087756074495684
+              ],
+              "row_population_rank": 25.999999999999968,
+              "status": "BRACKETED",
+              "target": 26.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5314424494561594,
+              "gamma_bracket": [
+                0.531442449456158,
+                0.5314424494561607
+              ],
+              "row_population_rank": 28.00000000000007,
+              "status": "BRACKETED",
+              "target": 28.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5530026488596052,
+              "gamma_bracket": [
+                0.5530026488596038,
+                0.5530026488596065
+              ],
+              "row_population_rank": 30.000000000000096,
+              "status": "BRACKETED",
+              "target": 30.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5735960243019655,
+              "gamma_bracket": [
+                0.5735960243019642,
+                0.5735960243019669
+              ],
+              "row_population_rank": 32.0,
+              "status": "BRACKETED",
+              "target": 32.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.5933393472595649,
+              "gamma_bracket": [
+                0.5933393472595636,
+                0.5933393472595663
+              ],
+              "row_population_rank": 33.999999999999886,
+              "status": "BRACKETED",
+              "target": 34.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.6123314597333462,
+              "gamma_bracket": [
+                0.6123314597333449,
+                0.6123314597333476
+              ],
+              "row_population_rank": 35.9999999999999,
+              "status": "BRACKETED",
+              "target": 36.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.6306570849114108,
+              "gamma_bracket": [
+                0.6306570849114095,
+                0.6306570849114121
+              ],
+              "row_population_rank": 37.99999999999983,
+              "status": "BRACKETED",
+              "target": 38.0
+            },
+            {
+              "endpoint_ranks": [
+                2.7309718831374474,
+                52.5917281055066
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.6483897228150872,
+              "gamma_bracket": [
+                0.648389722815086,
+                0.6483897228150886
+              ],
+              "row_population_rank": 40.00000000000005,
+              "status": "BRACKETED",
+              "target": 40.0
+            }
+          ]
+        }
+      ],
+      "N": [
+        {
+          "eta": 1e-10,
+          "feature_scale": 1.0,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06496559679798997,
+              "gamma_bracket": [
+                0.06496559679798863,
+                0.0649655967979913
+              ],
+              "row_population_rank": 6.600000000000011,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06754359831674156,
+              "gamma_bracket": [
+                0.06754359831674023,
+                0.06754359831674289
+              ],
+              "row_population_rank": 6.800000000000005,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07007687903545834,
+              "gamma_bracket": [
+                0.07007687903545701,
+                0.07007687903545967
+              ],
+              "row_population_rank": 6.999999999999995,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07256732836487839,
+              "gamma_bracket": [
+                0.07256732836487706,
+                0.07256732836487972
+              ],
+              "row_population_rank": 7.200000000000056,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07501672322287331,
+              "gamma_bracket": [
+                0.07501672322287198,
+                0.07501672322287464
+              ],
+              "row_population_rank": 7.3999999999999355,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07742673550519061,
+              "gamma_bracket": [
+                0.07742673550518928,
+                0.07742673550519194
+              ],
+              "row_population_rank": 7.599999999999924,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.0797989392297406,
+              "gamma_bracket": [
+                0.07979893922973927,
+                0.07979893922974193
+              ],
+              "row_population_rank": 7.799999999999953,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                2.5485615444124896,
+                166.57175843164438
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.08213481729094738,
+              "gamma_bracket": [
+                0.08213481729094604,
+                0.08213481729094871
+              ],
+              "row_population_rank": 8.000000000000098,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        },
+        {
+          "eta": 9.5367431640625e-07,
+          "feature_scale": 0.9999995232131829,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06496348005596869,
+              "gamma_bracket": [
+                0.06496348005596736,
+                0.06496348005597002
+              ],
+              "row_population_rank": 6.5999999999999694,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06754146606589781,
+              "gamma_bracket": [
+                0.06754146606589648,
+                0.06754146606589914
+              ],
+              "row_population_rank": 6.800000000000035,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07007473179867449,
+              "gamma_bracket": [
+                0.07007473179867316,
+                0.07007473179867582
+              ],
+              "row_population_rank": 7.000000000000088,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07256516662235374,
+              "gamma_bracket": [
+                0.0725651666223524,
+                0.07256516662235507
+              ],
+              "row_population_rank": 7.200000000000046,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07501454741723454,
+              "gamma_bracket": [
+                0.07501454741723321,
+                0.07501454741723587
+              ],
+              "row_population_rank": 7.400000000000012,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07742454604580043,
+              "gamma_bracket": [
+                0.0774245460457991,
+                0.07742454604580176
+              ],
+              "row_population_rank": 7.6000000000000485,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.0797967364963694,
+              "gamma_bracket": [
+                0.07979673649636806,
+                0.07979673649637073
+              ],
+              "row_population_rank": 7.7999999999999075,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                2.548633628711996,
+                166.57364527338316
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.08213260163692807,
+              "gamma_bracket": [
+                0.08213260163692673,
+                0.0821326016369294
+              ],
+              "row_population_rank": 8.000000000000023,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        },
+        {
+          "eta": 6.103515625e-05,
+          "feature_scale": 0.9999694838687863,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06487352793799012,
+              "gamma_bracket": [
+                0.06487352793798878,
+                0.06487352793799145
+              ],
+              "row_population_rank": 6.599999999999923,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06745094619148789,
+              "gamma_bracket": [
+                0.06745094619148656,
+                0.06745094619148922
+              ],
+              "row_population_rank": 6.799999999999967,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.069983665306697,
+              "gamma_bracket": [
+                0.06998366530669567,
+                0.06998366530669833
+              ],
+              "row_population_rank": 6.999999999999957,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07247357285409395,
+              "gamma_bracket": [
+                0.07247357285409262,
+                0.07247357285409528
+              ],
+              "row_population_rank": 7.199999999999938,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07492244413607393,
+              "gamma_bracket": [
+                0.0749224441360726,
+                0.07492244413607527
+              ],
+              "row_population_rank": 7.400000000000015,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07733194962248427,
+              "gamma_bracket": [
+                0.07733194962248294,
+                0.0773319496224856
+              ],
+              "row_population_rank": 7.600000000000086,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07970366206636065,
+              "gamma_bracket": [
+                0.07970366206635932,
+                0.07970366206636198
+              ],
+              "row_population_rank": 7.799999999999946,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                2.5517927483807394,
+                166.6437709945231
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.08203906323490495,
+              "gamma_bracket": [
+                0.08203906323490362,
+                0.08203906323490628
+              ],
+              "row_population_rank": 7.9999999999998845,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        },
+        {
+          "eta": 0.0009765625,
+          "feature_scale": 0.9995120761370544,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.0639567600285213,
+              "gamma_bracket": [
+                0.06395676002851997,
+                0.06395676002852263
+              ],
+              "row_population_rank": 6.600000000000012,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.0665297765583657,
+              "gamma_bracket": [
+                0.06652977655836437,
+                0.06652977655836703
+              ],
+              "row_population_rank": 6.799999999999952,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06905829463866239,
+              "gamma_bracket": [
+                0.06905829463866106,
+                0.06905829463866373
+              ],
+              "row_population_rank": 7.000000000000063,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07154418354099135,
+              "gamma_bracket": [
+                0.07154418354099001,
+                0.07154418354099268
+              ],
+              "row_population_rank": 7.199999999999978,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07398920258547265,
+              "gamma_bracket": [
+                0.07398920258547131,
+                0.07398920258547398
+              ],
+              "row_population_rank": 7.40000000000008,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07639500820606299,
+              "gamma_bracket": [
+                0.07639500820606165,
+                0.07639500820606432
+              ],
+              "row_population_rank": 7.599999999999992,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07876316076677736,
+              "gamma_bracket": [
+                0.07876316076677603,
+                0.0787631607667787
+              ],
+              "row_population_rank": 7.800000000000005,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                2.5856619044187554,
+                167.20407068411117
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.08109513104823601,
+              "gamma_bracket": [
+                0.08109513104823468,
+                0.08109513104823735
+              ],
+              "row_population_rank": 7.999999999999945,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        },
+        {
+          "eta": 0.015625,
+          "feature_scale": 0.9922778767632815,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.056298348531869186,
+              "gamma_bracket": [
+                0.05629834853186785,
+                0.05629834853187052
+              ],
+              "row_population_rank": 6.5999999999999375,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.05886394059995115,
+              "gamma_bracket": [
+                0.058863940599949816,
+                0.05886394059995248
+              ],
+              "row_population_rank": 6.800000000000035,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.061386545514642316,
+              "gamma_bracket": [
+                0.06138654551464098,
+                0.06138654551464365
+              ],
+              "row_population_rank": 7.000000000000085,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06386785942258602,
+              "gamma_bracket": [
+                0.06386785942258469,
+                0.06386785942258735
+              ],
+              "row_population_rank": 7.200000000000062,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06630949295817176,
+              "gamma_bracket": [
+                0.06630949295817043,
+                0.0663094929581731
+              ],
+              "row_population_rank": 7.399999999999959,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06871297412457905,
+              "gamma_bracket": [
+                0.06871297412457772,
+                0.06871297412458038
+              ],
+              "row_population_rank": 7.600000000000005,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.0710797517669253,
+              "gamma_bracket": [
+                0.07107975176692397,
+                0.07107975176692663
+              ],
+              "row_population_rank": 7.799999999999991,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                2.916941283787687,
+                168.35868427551395
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07341119936368956,
+              "gamma_bracket": [
+                0.07341119936368823,
+                0.0734111993636909
+              ],
+              "row_population_rank": 8.000000000000034,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        },
+        {
+          "eta": 0.125,
+          "feature_scale": 0.9428090416292038,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.0385441670905694,
+              "gamma_bracket": [
+                0.03854416709056807,
+                0.038544167090570736
+              ],
+              "row_population_rank": 6.599999999999987,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.041386345860373236,
+              "gamma_bracket": [
+                0.041386345860371904,
+                0.04138634586037457
+              ],
+              "row_population_rank": 6.799999999999946,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.044189443269339865,
+              "gamma_bracket": [
+                0.04418944326933853,
+                0.0441894432693412
+              ],
+              "row_population_rank": 7.000000000000005,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.046954203375918616,
+              "gamma_bracket": [
+                0.04695420337591728,
+                0.04695420337591995
+              ],
+              "row_population_rank": 7.1999999999999345,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.04968146244173721,
+              "gamma_bracket": [
+                0.04968146244173588,
+                0.049681462441738544
+              ],
+              "row_population_rank": 7.400000000000074,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.05237211446655354,
+              "gamma_bracket": [
+                0.05237211446655221,
+                0.052372114466554875
+              ],
+              "row_population_rank": 7.600000000000065,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.05502708635109353,
+              "gamma_bracket": [
+                0.0550270863510922,
+                0.055027086351094864
+              ],
+              "row_population_rank": 7.799999999999984,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                4.0541238496051335,
+                139.33068460829205
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.05764731992923884,
+              "gamma_bracket": [
+                0.05764731992923751,
+                0.05764731992924017
+              ],
+              "row_population_rank": 7.999999999999924,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        },
+        {
+          "eta": 0.5,
+          "feature_scale": 0.8164965809685508,
+          "gamma_table": [
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.049605977730436304,
+              "gamma_bracket": [
+                0.04960597773043497,
+                0.049605977730437636
+              ],
+              "row_population_rank": 6.599999999999958,
+              "status": "BRACKETED",
+              "target": 6.6
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.05422183659216109,
+              "gamma_bracket": [
+                0.05422183659215976,
+                0.054221836592162426
+              ],
+              "row_population_rank": 6.799999999999949,
+              "status": "BRACKETED",
+              "target": 6.8
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.058786856605427595,
+              "gamma_bracket": [
+                0.05878685660542626,
+                0.05878685660542893
+              ],
+              "row_population_rank": 6.999999999999973,
+              "status": "BRACKETED",
+              "target": 7.0
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06330067125697583,
+              "gamma_bracket": [
+                0.0633006712569745,
+                0.06330067125697716
+              ],
+              "row_population_rank": 7.200000000000021,
+              "status": "BRACKETED",
+              "target": 7.2
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.06776335106927989,
+              "gamma_bracket": [
+                0.06776335106927855,
+                0.06776335106928122
+              ],
+              "row_population_rank": 7.400000000000015,
+              "status": "BRACKETED",
+              "target": 7.4
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07217528091037409,
+              "gamma_bracket": [
+                0.07217528091037276,
+                0.07217528091037542
+              ],
+              "row_population_rank": 7.599999999999958,
+              "status": "BRACKETED",
+              "target": 7.6
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.07653707150193584,
+              "gamma_bracket": [
+                0.0765370715019345,
+                0.07653707150193717
+              ],
+              "row_population_rank": 7.799999999999946,
+              "status": "BRACKETED",
+              "target": 7.8
+            },
+            {
+              "endpoint_ranks": [
+                4.494283503880627,
+                63.71235991257772
+              ],
+              "finite_or_P_reference_calibration": false,
+              "gamma": 0.08084949471062547,
+              "gamma_bracket": [
+                0.08084949471062414,
+                0.0808494947106268
+              ],
+              "row_population_rank": 7.9999999999999805,
+              "status": "BRACKETED",
+              "target": 8.0
+            }
+          ]
+        }
+      ]
+    },
+    "mass_denominator": 70368744177664.0,
+    "mass_denominator_exact": 70368744177664,
+    "mass_numerators": [
+      2739440909,
+      646690607,
+      27174096385158,
+      557860042,
+      1388140238,
+      873925493,
+      573524909,
+      536880156,
+      414158614912,
+      1835428715,
+      23686176110096,
+      18575587650140,
+      52691045404,
+      456882480885
+    ],
+    "max_binary64_mass_error": 0.0,
+    "node_id": 1,
+    "path": "joint",
+    "t": {
+      "denominator": 16,
+      "numerator": 1
+    },
+    "unit_directions": {
+      "M": [
+        [
+          -0.15463813365994464,
+          -0.9524699044356528,
+          -0.0019259109942337794,
+          -0.2323889561462145,
+          -0.10755885083321594,
+          0.006798223737823902,
+          -0.035841786297748264,
+          0.03328120385785932,
+          -0.027753369277591432,
+          0.0042526054069825505,
+          -0.00916864579099319,
+          -6.917155583688426e-06,
+          2.0822544624161385e-06
+        ],
+        [
+          -0.3539866512096634,
+          0.9181577798699467,
+          0.0441779902299163,
+          -0.13583725232710386,
+          0.06302125398461615,
+          -0.07556798432831274,
+          -0.037249979627991155,
+          -0.011706447123169645,
+          -0.005984759290811984,
+          0.004247320852122627,
+          -0.003953531976644331,
+          2.711974674924456e-07,
+          4.498207431256445e-08
+        ],
+        [
+          0.9872548143338582,
+          -0.12340190502462185,
+          -0.03329341950892503,
+          -0.0663220658412715,
+          -0.03978929350344596,
+          0.029478906667967226,
+          0.04566395695121251,
+          0.0009190044913666855,
+          0.0014017379177908758,
+          0.004074985508480558,
+          -0.0035133724269009988,
+          0.004584804006706118,
+          0.0016319533229613601
+        ],
+        [
+          -0.5269271751926417,
+          0.6409180013824226,
+          -0.5191479298124749,
+          0.05584632716332996,
+          -0.1765933606053484,
+          -0.06650070076841962,
+          -0.029062933108063613,
+          -0.02722013376396128,
+          0.018421291295625312,
+          0.033530284601121625,
+          -0.016784225219717966,
+          -4.059477140987562e-06,
+          9.724330041161723e-06
+        ],
+        [
+          -0.3517963164147746,
+          0.8553541218585334,
+          -0.1880557947514029,
+          0.18211559425680562,
+          0.08842218871304133,
+          0.25570955993763606,
+          -0.004309145561169877,
+          0.020393495710941345,
+          -0.04784178883998915,
+          0.011319403651293367,
+          -0.004507163878795689,
+          -1.5593752182536378e-05,
+          5.8831579006827585e-06
+        ],
+        [
+          -0.7767279235956195,
+          0.2672168984171622,
+          0.49989233590334065,
+          -0.20580956485418522,
+          -0.09011683520460133,
+          -0.0663883212731704,
+          -0.08136295470567542,
+          0.11701129642242394,
+          -0.0132135475243018,
+          -0.0030260246360660167,
+          -0.003893024428085121,
+          5.618892812403929e-06,
+          3.88333850018743e-06
+        ],
+        [
+          -0.8605886185214502,
+          0.3187551998591959,
+          0.23004110635000066,
+          -0.2683564151549296,
+          -0.08967388311359249,
+          0.14928584633713188,
+          -0.004925341362122039,
+          -0.04462410128233849,
+          0.001585961406964372,
+          -0.02062136041803465,
+          -0.008790991648599871,
+          9.2726402664925e-06,
+          6.10345679997219e-06
+        ],
+        [
+          0.8221637336592319,
+          0.27541361246780777,
+          -0.42736356023776145,
+          -0.11459016616750219,
+          -0.21181388096289852,
+          0.08159950448163308,
+          -0.024781734229526016,
+          -0.013072176268410238,
+          0.009368949288401852,
+          -0.003985955714977394,
+          -0.003367165716715085,
+          1.4137844641864767e-06,
+          4.102685538997353e-06
+        ],
+        [
+          -0.050685181638387464,
+          0.28880779740571316,
+          0.8150584234009611,
+          0.39646005836670684,
+          -0.29861237193717116,
+          -0.006406687229157969,
+          0.008636140017066718,
+          -0.0012140386296734286,
+          -0.0029234055049921766,
+          0.0059064909043007405,
+          0.030410282485837523,
+          0.03893200961908187,
+          0.027384053300577645
+        ],
+        [
+          -0.32656059419612493,
+          -0.8309111600835818,
+          -0.24774765163723567,
+          0.3731993638396231,
+          0.034486612056945934,
+          0.0263232596904917,
+          -0.014836633569296449,
+          -0.010351270674270984,
+          0.0059529444957096295,
+          0.002499292643071074,
+          -0.006079421107489977,
+          1.584077702962509e-06,
+          4.150693650471004e-06
+        ],
+        [
+          -0.8083800509730948,
+          0.4909876780884719,
+          -0.24607120338351476,
+          0.1909255879476006,
+          0.012220741374110545,
+          -0.020757823913187565,
+          -0.05835121963891513,
+          -0.021505584875102308,
+          0.010632185037711066,
+          0.00923884768528338,
+          0.001527598588848307,
+          0.010406243317648892,
+          -0.06076647082152987
+        ],
+        [
+          0.9952399683885209,
+          -0.08144520879474029,
+          0.036471578194165,
+          0.0068910425076998605,
+          0.004857822347864584,
+          -0.033119921405127685,
+          0.0034893974049889863,
+          0.0029441983931561594,
+          0.010572148517935342,
+          -0.015004556750341196,
+          -0.002382323921159331,
+          -0.0014525346116165013,
+          -0.0005971613559336333
+        ],
+        [
+          -0.991967957332856,
+          0.08398499931596595,
+          0.04488461635122735,
+          -0.01631100622680208,
+          0.06955186806528707,
+          -0.0016361729444605304,
+          0.0037764145281236,
+          0.017994645782979237,
+          0.027443681157525823,
+          -0.023804111490560678,
+          -0.01273949406903797,
+          -0.001607068438544047,
+          0.001592818696586036
+        ],
+        [
+          -0.9958958205269631,
+          -0.0607420175715884,
+          0.014636641940333095,
+          -0.00038732811394629146,
+          0.013651734756871337,
+          -0.009979443638002055,
+          0.005634332022872905,
+          0.009979023945316894,
+          -0.0028929579078270876,
+          0.0023684721853148567,
+          0.03448753728855267,
+          -0.04674443377176636,
+          0.02195093828609105
+        ]
+      ],
+      "N": [
+        [
+          -0.06566029674412896,
+          -0.9951783380315835,
+          -0.07213558721874361,
+          -0.010242403951804306,
+          0.0005922773504408753,
+          -1.9182344905046716e-05,
+          1.2717561235242696e-06,
+          1.2676402217308267e-07,
+          -7.68890997680311e-08,
+          4.062899611892906e-08,
+          -3.909706027521553e-09,
+          3.630751730562232e-11,
+          -2.8339234026663893e-12
+        ],
+        [
+          0.8457388034275217,
+          0.5333001850306733,
+          0.010576753876330225,
+          0.014295449518912423,
+          0.0007490889014409707,
+          -1.7015604154631825e-05,
+          -1.0189706483913918e-07,
+          -7.601453833030269e-09,
+          -9.678782594473195e-09,
+          -4.1142395107637515e-08,
+          4.2230633381008334e-10,
+          4.554138951350919e-11,
+          -3.4727022642324264e-12
+        ],
+        [
+          -0.5985403268768484,
+          0.7898423596311487,
+          0.12856611260372378,
+          0.03699733561789961,
+          -0.0006850020087405083,
+          -8.155591426820196e-05,
+          9.291822550280591e-07,
+          -2.3410182457347332e-07,
+          8.089786232380541e-08,
+          -2.3016080440875515e-08,
+          -1.064092023404564e-06,
+          -4.0561212596745935e-07,
+          5.05986707106232e-07
+        ],
+        [
+          0.49087898110110983,
+          0.8350762629162165,
+          0.24454636898022875,
+          -0.043387824743741116,
+          0.00017620934445645683,
+          -7.697391071910489e-06,
+          7.930863374154583e-07,
+          -1.993371957444838e-09,
+          4.907956649693609e-08,
+          -1.043990835957222e-08,
+          -5.299191413384277e-10,
+          2.47457934390645e-11,
+          -1.0903157388790465e-11
+        ],
+        [
+          0.07801696689385423,
+          -0.9018509200226408,
+          0.42486027391415954,
+          0.007324851073017411,
+          -0.004285413868111596,
+          -1.9105462740592485e-05,
+          3.376949969979449e-07,
+          -4.196202392947773e-07,
+          8.679136375642682e-08,
+          -7.42769826656669e-08,
+          3.5698690258039467e-09,
+          -1.488262837180043e-11,
+          2.9829301917403133e-11
+        ],
+        [
+          -0.7398831901459497,
+          -0.0612126600333016,
+          -0.6695488692587747,
+          0.023022645453915705,
+          0.0003792811387175318,
+          -2.8399953605739983e-05,
+          5.589160524298329e-07,
+          2.2953827456377437e-07,
+          7.642529773089371e-07,
+          1.0380520917259306e-07,
+          2.4491376864774517e-09,
+          1.9440371489176564e-10,
+          4.863607736627482e-11
+        ],
+        [
+          0.9585092171065605,
+          -0.20929129740367974,
+          -0.1931688572763148,
+          -0.011939382407970631,
+          -0.0006908514440909492,
+          -1.8407867864516015e-06,
+          7.733749312237236e-08,
+          -1.3906427503700607e-07,
+          -1.6337626071571247e-08,
+          -1.3856637225988722e-09,
+          1.0577022450445184e-08,
+          -2.634163789151256e-12,
+          4.531588234966832e-12
+        ],
+        [
+          -0.9319608933738283,
+          -0.330489347196037,
+          0.14888439877382365,
+          -0.007686201335680838,
+          -0.0002066938695756809,
+          -1.1241760503555474e-07,
+          -4.1444291520383836e-07,
+          1.9065833589299273e-07,
+          -3.521116430203908e-08,
+          -3.0243248570818705e-09,
+          4.261314166645417e-09,
+          9.62004321894262e-12,
+          1.1397602817355567e-11
+        ],
+        [
+          0.7952857353844645,
+          -0.5603457357962981,
+          0.23128389846748323,
+          0.006395411003890478,
+          0.0003351561417432257,
+          1.2913198515638034e-05,
+          -5.257899005070193e-07,
+          2.5017104018776853e-08,
+          -3.0327675625272467e-08,
+          1.4070201999833516e-09,
+          -1.8830203923607203e-08,
+          -4.772525334350456e-08,
+          1.6305511818856036e-08
+        ],
+        [
+          -0.37447638291620716,
+          -0.914810945330546,
+          -0.14860493782549822,
+          -0.028345191788899014,
+          0.0012228986807004075,
+          4.062336248860786e-06,
+          -2.481379910086541e-07,
+          -6.937825857159276e-08,
+          6.582563310272793e-08,
+          -2.789156957672586e-08,
+          4.34183351718284e-09,
+          1.4323365563713202e-10,
+          -1.016162410657622e-11
+        ],
+        [
+          0.08777092669682507,
+          0.9534249902255042,
+          -0.28504908737651863,
+          -0.04473746702459796,
+          0.004756695932217323,
+          5.573937898513802e-05,
+          -2.2145652228034414e-06,
+          -2.245572404516375e-07,
+          -3.023419584342128e-07,
+          7.268296587815744e-07,
+          1.1212007994409283e-06,
+          -6.336940166939532e-07,
+          -1.065936355044384e-07
+        ],
+        [
+          0.6313081490123018,
+          0.7293555327238733,
+          0.2571322301668488,
+          0.05798073451340518,
+          -0.0034319804088884325,
+          4.476615320489593e-06,
+          5.527906601570901e-07,
+          -3.236447385982218e-07,
+          -1.05021171530149e-07,
+          2.4877343013966173e-07,
+          -3.0367965654902246e-07,
+          2.959112953786855e-07,
+          -4.636982064228016e-07
+        ],
+        [
+          -0.3534096055256914,
+          0.92505458930029,
+          0.13550712997834488,
+          0.03183312442072541,
+          -0.00035301699957983454,
+          5.3196902178812285e-05,
+          -4.862185410178023e-08,
+          1.9337069669031523e-07,
+          -2.2615722941287294e-07,
+          9.340731673812199e-08,
+          3.379233381374079e-07,
+          3.700531981014061e-07,
+          1.746022017361645e-07
+        ],
+        [
+          -0.9823382270309845,
+          -0.15370064177620715,
+          -0.1066503086184724,
+          -0.003663742905892522,
+          9.458605321733406e-05,
+          1.1911392971891852e-05,
+          -1.4836316203885251e-06,
+          2.3280417399358404e-07,
+          1.2609446333687401e-08,
+          -2.2133536745315942e-07,
+          -1.913066684728893e-08,
+          -1.2339590443382331e-08,
+          -2.1028610726745455e-08
+        ]
+      ]
+    }
+  }
+}

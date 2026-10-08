@@ -1,0 +1,419 @@
+{
+  "files": {
+    ".gitattributes": {
+      "bytes": 89,
+      "sha256": "caa85bc05c8e54999f7c46f5420c049bd5d028e83eeea8af9d4dbb61aa822b2a"
+    },
+    ".gitignore": {
+      "bytes": 70,
+      "sha256": "d28269f01250e172ad0781c3a18880a66cd479561a60eaac384e0c92cd442948"
+    },
+    "LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "NOTICE": {
+      "bytes": 227,
+      "sha256": "2675080c513e8ef09a9af7d9ec52e3093e6762b024c4ab592399c2418b4921d4"
+    },
+    "README.md": {
+      "bytes": 11133,
+      "sha256": "1fe93111a5560f24dad5cbacfbd8beb087cb96c9de0b500f0b677d0fc6858257"
+    },
+    "docs/TECHNICAL_NOTE.md": {
+      "bytes": 14958,
+      "sha256": "1feaeaabfc218eaa5d4e892612a46537d305dc2576a53d7e26b391fb1af55999"
+    },
+    "docs/figures/approach.svg": {
+      "bytes": 2849,
+      "sha256": "89e968efb4c125773d29dc9a571c903b44b4dff70c48f876ecb46b34ae226bb4"
+    },
+    "docs/figures/construction.svg": {
+      "bytes": 93693,
+      "sha256": "4749e88b71351ad124ada21a4d8e508cb7d28feff5ff19218f9cc521c2c39677"
+    },
+    "examples/plot_construction.py": {
+      "bytes": 3616,
+      "sha256": "490c7e1e3ec86c8fbde8af89e31161ba842edb514fdcc5dcea0ea15544b7ec5f"
+    },
+    "pyproject.toml": {
+      "bytes": 617,
+      "sha256": "6b0443c30c8ffc976e505d0e27fb1115812d4902090b656a2fa0d10e13a70b37"
+    },
+    "requirements.txt": {
+      "bytes": 47,
+      "sha256": "3a83f6104017d747579d3014eefcf99945e8807d4d3f2e15b1d6624869a79a23"
+    },
+    "src/genesis_core/__init__.py": {
+      "bytes": 100,
+      "sha256": "25ac10775202fadbbbad2ff5cb064ba3d89550dab254ea0d17dcfa294e98691c"
+    },
+    "src/genesis_core/__main__.py": {
+      "bytes": 6682,
+      "sha256": "63d57b7fb3cd79bf9d78938b601cdb5b925c9f83282d067fcbf19f1e28d0eece"
+    },
+    "src/genesis_core/analysis.py": {
+      "bytes": 25736,
+      "sha256": "b7dea399d3c54a697aade2fb0022a92edbc07c354fb5984f458648c8a2a5fb3a"
+    },
+    "src/genesis_core/charts.py": {
+      "bytes": 6003,
+      "sha256": "1c4f3f495bf212a1a380d1740c3a2ad3254be6e5ce7c6ec010c3c748addbf917"
+    },
+    "src/genesis_core/data.py": {
+      "bytes": 387,
+      "sha256": "1b3de7f50a7944fcd0a54c994c318592c47df60ef2134bc8f860d534a78570f5"
+    },
+    "src/genesis_core/data/analysis.json": {
+      "bytes": 735338,
+      "sha256": "0134f0c06029ad0e78d918e0298d408266f352cb9997d8ce21612d32e867160c"
+    },
+    "src/genesis_core/data/construction.json": {
+      "bytes": 281761,
+      "sha256": "7796f14bb94c123fd3082293a3a2ff0e46a2b2d9c76a4a2684572d9e4cb561da"
+    },
+    "src/genesis_core/data/entropy_laws.json": {
+      "bytes": 88582,
+      "sha256": "03044ac2ae49a7ebf0db0b8bcbcda3de4b1d1a05b51af744f6ea0fe2dd2a5fd0"
+    },
+    "src/genesis_core/data/qualification.json": {
+      "bytes": 5032376,
+      "sha256": "5bc15edfffb666b45f0463b6bd9b84d6550b9a1675671c9339faabe8a5a77e3d"
+    },
+    "src/genesis_core/entropy.py": {
+      "bytes": 9175,
+      "sha256": "367cbad3b481714c0f837b5d98fd95759ccba1c2bf42a43593ba765390315e82"
+    },
+    "src/genesis_core/experiments.py": {
+      "bytes": 8025,
+      "sha256": "8368e2b85106e33b089685bac6d5802f65e6c2e4f5bef809d646249b1da0ae11"
+    },
+    "src/genesis_core/intervals.py": {
+      "bytes": 3526,
+      "sha256": "405d5377e962c0f3a609543e410fc68672de9124048cd069a3825beae679cb0a"
+    },
+    "src/genesis_core/intervention.py": {
+      "bytes": 5012,
+      "sha256": "cd328e8405055078abd913455fa31216d343f53ba3d0f6067147f00c126ee6ec"
+    },
+    "src/genesis_core/qualification.py": {
+      "bytes": 3359,
+      "sha256": "d68200ce802ffb8352e4d982822c03a3460739cff790aea2cfc7909f6dddf4e9"
+    },
+    "src/genesis_core/readout_discovery.py": {
+      "bytes": 9025,
+      "sha256": "7b59b04a8a092e4277199474f118cb65f6eb8ef6d7bca41bc980ec9b392b90e2"
+    },
+    "src/genesis_core/readout_matched.py": {
+      "bytes": 7035,
+      "sha256": "652ab91514a58258808f14aae5df3652300d4851131137051fa1e1b80cefefca"
+    },
+    "tests/originals/gate1_estimators.py": {
+      "bytes": 29394,
+      "sha256": "aa2a7d6881701dcdeaf6ec00440dec418569df704bf482eed0b1578e17620deb"
+    },
+    "tests/originals/mp002c_core.py": {
+      "bytes": 27522,
+      "sha256": "c3711e10d8f62166b786dabf8efdce140b861c02a65ef2486374844dc17fa182"
+    },
+    "tests/originals/mp002c_readout.py": {
+      "bytes": 7383,
+      "sha256": "3305f09677223fe8620b3e4b178db5792dcccf4aa20281dd3afe15c2cb93c067"
+    },
+    "tests/originals/mp002d_discovery_analysis.py": {
+      "bytes": 51803,
+      "sha256": "26fd7b30ee65f09274fb631c4945d529c770c62ef2679868634b14995da5fa5e"
+    },
+    "tests/test_analysis.py": {
+      "bytes": 5954,
+      "sha256": "6c38134f6e9dc981005bcf8449f8cb7dd442c6d9a9de2de02ebcfddb06376fe8"
+    },
+    "tests/test_construction.py": {
+      "bytes": 2512,
+      "sha256": "de48fb804d6cf227a072357163fa66d43b187e97add134a3efddd3c587836987"
+    },
+    "tests/test_protocols.py": {
+      "bytes": 3513,
+      "sha256": "4847a9164577876634de5c245ff40197a7ad78c36a780dae4e6073038e06891a"
+    },
+    "tests/test_qualification.py": {
+      "bytes": 2801,
+      "sha256": "86ffbba4cd8b3ce9c737cdc34bed0f8ab51caf77b9f6b55acb5cb405755f4b6a"
+    },
+    "verify.py": {
+      "bytes": 928,
+      "sha256": "b1c10bc3c382212698a36fc17d96a0d744197dd3ca0815a65c950397d2e8ad9c"
+    }
+  },
+  "license": "Apache-2.0",
+  "prepared_date": "2026-10-08",
+  "schema": "GENESIS_RESEARCH_RELEASE_V1",
+  "scientific_snapshot": "2026-09-20",
+  "sources": {
+    "genesis/consolidation/implementation_template/src/genesis_core/charts.py": {
+      "bytes": 5191,
+      "sha256": "67f4804acd97d5b5274c24353bded8999e9f837dc67e735d90525c2afbdc2455"
+    },
+    "genesis/consolidation/implementation_template/src/genesis_core/intervention.py": {
+      "bytes": 4105,
+      "sha256": "f964f4abda38f82b9c9e58e1dbad860ecbdbfbe88e8bf35ef48998de20b33175"
+    },
+    "genesis/consolidation/release_annotations.py": {
+      "bytes": 7270,
+      "sha256": "46387ed41fe6470942dec809d80d36cedf8e27d4aa5ec7eb3e68d30d994f5dc9"
+    },
+    "genesis/consolidation/release_template/.gitattributes": {
+      "bytes": 89,
+      "sha256": "caa85bc05c8e54999f7c46f5420c049bd5d028e83eeea8af9d4dbb61aa822b2a"
+    },
+    "genesis/consolidation/release_template/.gitignore": {
+      "bytes": 70,
+      "sha256": "d28269f01250e172ad0781c3a18880a66cd479561a60eaac384e0c92cd442948"
+    },
+    "genesis/consolidation/release_template/LICENSE": {
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    "genesis/consolidation/release_template/NOTICE": {
+      "bytes": 227,
+      "sha256": "2675080c513e8ef09a9af7d9ec52e3093e6762b024c4ab592399c2418b4921d4"
+    },
+    "genesis/consolidation/release_template/README.md": {
+      "bytes": 11133,
+      "sha256": "1fe93111a5560f24dad5cbacfbd8beb087cb96c9de0b500f0b677d0fc6858257"
+    },
+    "genesis/consolidation/release_template/docs/TECHNICAL_NOTE.md": {
+      "bytes": 14958,
+      "sha256": "1feaeaabfc218eaa5d4e892612a46537d305dc2576a53d7e26b391fb1af55999"
+    },
+    "genesis/consolidation/release_template/docs/figures/approach.svg": {
+      "bytes": 2849,
+      "sha256": "89e968efb4c125773d29dc9a571c903b44b4dff70c48f876ecb46b34ae226bb4"
+    },
+    "genesis/consolidation/release_template/docs/figures/construction.svg": {
+      "bytes": 93693,
+      "sha256": "4749e88b71351ad124ada21a4d8e508cb7d28feff5ff19218f9cc521c2c39677"
+    },
+    "genesis/consolidation/release_template/examples/plot_construction.py": {
+      "bytes": 3616,
+      "sha256": "490c7e1e3ec86c8fbde8af89e31161ba842edb514fdcc5dcea0ea15544b7ec5f"
+    },
+    "genesis/consolidation/release_template/pyproject.toml": {
+      "bytes": 617,
+      "sha256": "6b0443c30c8ffc976e505d0e27fb1115812d4902090b656a2fa0d10e13a70b37"
+    },
+    "genesis/consolidation/release_template/requirements.txt": {
+      "bytes": 47,
+      "sha256": "3a83f6104017d747579d3014eefcf99945e8807d4d3f2e15b1d6624869a79a23"
+    },
+    "genesis/consolidation/release_template/src/genesis_core/__init__.py": {
+      "bytes": 100,
+      "sha256": "25ac10775202fadbbbad2ff5cb064ba3d89550dab254ea0d17dcfa294e98691c"
+    },
+    "genesis/consolidation/release_template/src/genesis_core/__main__.py": {
+      "bytes": 6682,
+      "sha256": "63d57b7fb3cd79bf9d78938b601cdb5b925c9f83282d067fcbf19f1e28d0eece"
+    },
+    "genesis/consolidation/release_template/src/genesis_core/data.py": {
+      "bytes": 387,
+      "sha256": "1b3de7f50a7944fcd0a54c994c318592c47df60ef2134bc8f860d534a78570f5"
+    },
+    "genesis/consolidation/release_template/src/genesis_core/experiments.py": {
+      "bytes": 8025,
+      "sha256": "8368e2b85106e33b089685bac6d5802f65e6c2e4f5bef809d646249b1da0ae11"
+    },
+    "genesis/consolidation/release_template/src/genesis_core/guards.py": {
+      "bytes": 7060,
+      "sha256": "f0426ea79e3010e4fcdb2d2e0a1179de0d00028d30c921ebc7d2fe1106c56cae"
+    },
+    "genesis/consolidation/release_template/src/genesis_core/qualification.py": {
+      "bytes": 3359,
+      "sha256": "d68200ce802ffb8352e4d982822c03a3460739cff790aea2cfc7909f6dddf4e9"
+    },
+    "genesis/consolidation/release_template/tests/test_analysis.py": {
+      "bytes": 5954,
+      "sha256": "6c38134f6e9dc981005bcf8449f8cb7dd442c6d9a9de2de02ebcfddb06376fe8"
+    },
+    "genesis/consolidation/release_template/tests/test_construction.py": {
+      "bytes": 2512,
+      "sha256": "de48fb804d6cf227a072357163fa66d43b187e97add134a3efddd3c587836987"
+    },
+    "genesis/consolidation/release_template/tests/test_protocols.py": {
+      "bytes": 3513,
+      "sha256": "4847a9164577876634de5c245ff40197a7ad78c36a780dae4e6073038e06891a"
+    },
+    "genesis/consolidation/release_template/tests/test_qualification.py": {
+      "bytes": 2801,
+      "sha256": "86ffbba4cd8b3ce9c737cdc34bed0f8ab51caf77b9f6b55acb5cb405755f4b6a"
+    },
+    "genesis/consolidation/release_template/verify.py": {
+      "bytes": 928,
+      "sha256": "b1c10bc3c382212698a36fc17d96a0d744197dd3ca0815a65c950397d2e8ad9c"
+    },
+    "genesis/consolidation/stage1/interval_replay.py": {
+      "bytes": 7599,
+      "sha256": "863d8c2dffaedda5c3b7509bf4ca8e8fa11abaf27d54ae8b2959fafd675ba73e"
+    },
+    "genesis/mp002c/learned_readout_audit.json": {
+      "bytes": 201337,
+      "sha256": "481a1f90b5b594b43b51deb09c0b793824d6b6381bc1b5d848709b7c9a71f9ab"
+    },
+    "genesis/mp002c/mp002c_core.py": {
+      "bytes": 27522,
+      "sha256": "c3711e10d8f62166b786dabf8efdce140b861c02a65ef2486374844dc17fa182"
+    },
+    "genesis/mp002c/mp002c_readout.py": {
+      "bytes": 7383,
+      "sha256": "3305f09677223fe8620b3e4b178db5792dcccf4aa20281dd3afe15c2cb93c067"
+    },
+    "genesis/mp002d/artifacts/discovery_analysis_v1/discovery_analysis_summary.json": {
+      "bytes": 471613,
+      "sha256": "e7ec4fe07213aee680dc5a680b6a634961881cf116472c9d77c07eecd3a8f887"
+    },
+    "genesis/mp002d/mp002d_discovery_analysis.py": {
+      "bytes": 51803,
+      "sha256": "26fd7b30ee65f09274fb631c4945d529c770c62ef2679868634b14995da5fa5e"
+    },
+    "genesis/mp002d/mp002d_discovery_analysis_config.json": {
+      "bytes": 2294,
+      "sha256": "22db259e782dec435731a0c57f057d8ff0156688c7167a928e3390573a104adc"
+    },
+    "genesis/mp002d/pc1/PC1_F151_CROSS_DEGREE_LEAKAGE_V01.json": {
+      "bytes": 287965,
+      "sha256": "9412c64676949076a0deb4b0a6b576b90991be23ee96d84f397efa339a2d646e"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_0_V01.json": {
+      "bytes": 17998,
+      "sha256": "e1f430d35f92f1cbbd9ead722dee6d074c10f0808501c855f963a89685db3149"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_1_V01.json": {
+      "bytes": 17974,
+      "sha256": "089f13ac8968a35d4a7d0c2c81b5cfd9dc62b03bdb0fd72ae6a8bd81b4a26ec8"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_2_V01.json": {
+      "bytes": 17985,
+      "sha256": "d4cef5489aae3a9b3e1bbec05af87505244594e552d3592f225231ed8b622cfe"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_3_V01.json": {
+      "bytes": 17993,
+      "sha256": "85612eb4d77fe7e9499daef0912a227110c449ace4a7cacaad2c5fd2c98b61fd"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_4_V01.json": {
+      "bytes": 17994,
+      "sha256": "3460762f469ff40e97b01baac5e1d75224e436c29cc081bbc70c492446865625"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_5_V01.json": {
+      "bytes": 18005,
+      "sha256": "2ab888d10dffb0a77ab2adca7b722282948d2cf52a51f4492d8ec42b362217ea"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_6_V01.json": {
+      "bytes": 17991,
+      "sha256": "339ac11c88095f530682b8c225b61e3de7e33e55fc611d375ee018db485189a8"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N512_REPLICA_7_V01.json": {
+      "bytes": 17979,
+      "sha256": "1bf7d5ae06189e5ce32a711273fd369aea6da026548b75d3f5985a866ee27462"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_0_V01.json": {
+      "bytes": 18004,
+      "sha256": "6b955d23896a22879b64451e3290cc3a614480b8d0ee5ac726112c4cb8608a2d"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_1_V01.json": {
+      "bytes": 18011,
+      "sha256": "235e19d05bb4bc0a469202d08cee9c02b682f8fbd3bc0dd709f8bc6aa2b96e8d"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_2_V01.json": {
+      "bytes": 18002,
+      "sha256": "eb54e0ab38a0d2b0a83f6e919a72830d4a8c09368f5355176fc203a6c638f4b6"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_3_V01.json": {
+      "bytes": 18014,
+      "sha256": "08f07358963447d10e8375b045bff0ed927da6ed9d35a45bb5d7bd294f84af67"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_4_V01.json": {
+      "bytes": 18012,
+      "sha256": "4c462dc3e1b02f7b9604e1b619f5d53ec29a376671792954e45b832833eb0544"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_5_V01.json": {
+      "bytes": 18011,
+      "sha256": "1db86a0fc9c07180fefae67df129cabb51614ff4906e31f70ba5151feb6ae2ca"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_6_V01.json": {
+      "bytes": 17988,
+      "sha256": "16138d3002e2b148eb40c332905c9d96bfea29db344c76b5ec954601758c4ec5"
+    },
+    "genesis/mp002d/pc1/PC1_F151_N768_REPLICA_7_V01.json": {
+      "bytes": 17997,
+      "sha256": "c54ce945a0cf18e8ba0f1bb964d7d80955dd9d94f9c2db20c49e5155bbced290"
+    },
+    "genesis/mp002d/pc1/PC1_F157_FRESH_ALL_SIZE_COHORT_VALIDATION_V02.json": {
+      "bytes": 616855,
+      "sha256": "b40346884a1e2d8d8f813ec03a475e2bccc8122ac26be9e0864305a94929bc59"
+    },
+    "genesis/mp002d/pc1/PC1_F160_FRESH_COMPOSITE_N256_VALIDATION_V01.json": {
+      "bytes": 2864493,
+      "sha256": "ee2d5b1098d24c4d277cf08df472bf65e312fd3e7c8df6bd0ccf90553682136b"
+    },
+    "genesis/mp002d/pc1/PC1_F510_REBINNED_SHARD_0_V01.json": {
+      "bytes": 1745276,
+      "sha256": "3f14c4e321e40c11e51bb48f3f44e87ec8dbd0ee2bf939326891fec56e58b2b1"
+    },
+    "genesis/mp002d/pc1/PC1_F510_REBINNED_SHARD_1_V01.json": {
+      "bytes": 1744968,
+      "sha256": "161d80e5f7a36c21f9b3f0483756455f0dd36537ab408d4ab14506af1155ede0"
+    },
+    "genesis/mp002d/pc1/PC1_F510_REBINNED_SHARD_2_V01.json": {
+      "bytes": 1745468,
+      "sha256": "cac1e23ddf370e6cdfc0a24c1be600cf8ed8ad4752c24c4a4fd5e972fab33d55"
+    },
+    "genesis/mp002d/pc1/PC1_F510_REBINNED_SHARD_3_V01.json": {
+      "bytes": 1745278,
+      "sha256": "8d8fd21a1627f7cdb4b8a3d2378d7ba32e1fb861d4bfaf81fb09b67b221a3778"
+    },
+    "genesis/mp002d/pc1/PC1_F511_DIRECT_N_TO_M_RIDGE_RATIO_CERTIFICATE_V01.json": {
+      "bytes": 34799,
+      "sha256": "3444b57e60e7010de1b9454376381f947bd68dce3b1e81ad0a901efe9b61196d"
+    },
+    "genesis/mp002d/pc1/PC1_F512_CERTIFICATE_P_DIRECT_RIDGE_RESULT_V01.json": {
+      "bytes": 10034,
+      "sha256": "b604e4b27b3e8bfad70bf0d3b5981c92e9e34de85807b09b9625cc652e409f6c"
+    },
+    "genesis/mp002d/pc1/PC1_F906_STATE10_HIERARCHY_INTERPOLATION_MANIFEST_V01.json": {
+      "bytes": 124980,
+      "sha256": "b087d533fcc00ebb8e80437dd52c30d621ce03b041e7877d64c84bc167589fe4"
+    },
+    "genesis/mp002d/pc1/PC1_F92_FRESH_PARITY_CORRECTED_REPAIR_CONTRACT_V01.json": {
+      "bytes": 6627,
+      "sha256": "668d930a66c0855847a2f48dfaca7c33ed975df61ad6efe1c2da5b23ca891631"
+    },
+    "genesis/mp002d/pc1/PC1_F92_FRESH_PARITY_CORRECTED_REPAIR_VALIDATION_V01.json": {
+      "bytes": 185164,
+      "sha256": "53c7256299e1f3264e846e9cb7a2b5eee209a93f5797f032e7a76b476740ac88"
+    },
+    "genesis/mp002d/pc1/PC1_F94_CELL_OFF_PAIRED_ABLATION_V01.json": {
+      "bytes": 140831,
+      "sha256": "492c087c9db828617730aab951066da9491826c0886404cfad42edc9216b4190"
+    },
+    "genesis/mp002d/pc1/f952_actual_entropy_origins_summary_20260912_01.json": {
+      "bytes": 338817,
+      "sha256": "bbb127f59006a9bb7dc4bcc10a06dcc6c7cbf26d7dada1dec8f5f3cf392a538b"
+    },
+    "genesis/mp002d/pc1/f952_captured_center_20260913_01.json": {
+      "bytes": 12194,
+      "sha256": "ba3e0bb45ac7e32b85cdf50fb1de9cd14ef09d01cb45d2902b3cc09587473d1e"
+    },
+    "genesis/mp002d/pc1/f952_ideal_triples_20260913_01.json": {
+      "bytes": 6261299,
+      "sha256": "dce8c0cded6a50edb835295c580728d943ae9e2047ed7f99bc7b899cac730453"
+    },
+    "genesis/mp002d/pc1/pc1_f952_reference_entropy_moments.py": {
+      "bytes": 10384,
+      "sha256": "a78b5b662b94e9d61ac5cc377752799db4191033e69b83a83c15836c5622f8b5"
+    },
+    "genesis/oracle/gate1_estimators.py": {
+      "bytes": 29394,
+      "sha256": "aa2a7d6881701dcdeaf6ec00440dec418569df704bf482eed0b1578e17620deb"
+    }
+  },
+  "status": "RELEASE"
+}
