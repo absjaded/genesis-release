@@ -96,24 +96,87 @@ isolates the shared chart. Full-source RSA also involves private features,
 radial modulation, cells, carriers and rank calibration; those outcomes are
 analyzed from saved records.
 
-The `records` command separately reaggregates all 192 saved cross-degree-intervention RSA rows. At
-carrier .02 the transformed/raw SD ratios are about .626 and .571; at carrier
-.15 they are about .703-.705 and .693-.695. The corresponding mean RSA decreases.
-Each sample size has eight cohorts measured at three repair settings, giving
-paired repeated observations. The ratios measure standard deviation; variance
-ratios are their squares. Gate success is evaluated separately below.
+## Construction choices and trade-offs
 
-The cell-removal study's 24 paired ablation rows show mean micro losses near .0072 and mean meso
-changes near zero, with nonzero individual meso changes. This supports a
-scale-selective contribution with residual cross-scale effects. All 120 deltas
-are checked against the saved, seed-matched cell-on controls.
+Three comparisons separate control of a component from qualification of the
+whole construction. Each addresses a different requirement: finite-sample
+coupling, reliability across sample sizes, or local structure.
 
-The prospectively tested cross-degree branch passed all-repair gates in 6/8, 7/8 and
-8/8 cohorts at n=256, n=512 and n=768. The n=256 route was rejected. A subsequent
-sample-size-indexed construction retained the earlier untransformed n=256 branch;
-a fresh validation tested it on untouched cohorts: 7/8 complete successes, 455/520 threshold-check
-rows. The resulting size-indexed construction uses distinct branches for the
-small and larger cohorts.
+### Why covariance correction needed projection
+
+The raw, covariance-only and combined variants use the same 16 regenerated
+shared charts, latent controls and declared covariance targets. Covariance-only
+correction matches the target spectrum but leaves coupling to the controls.
+Writing $C_S=S^\top S/(n-1)$ makes the limitation explicit:
+
+$$
+Q^\top\!\left(SC_S^{-1/2}D^{1/2}\right)
+=(Q^\top S)C_S^{-1/2}D^{1/2}.
+$$
+
+When the right-hand transform is invertible, it cannot turn a nonzero
+cross-moment matrix into zero. Removing the control span before recoloring
+enforces both identities stated above. `construction` checks that result and
+the historical shared-component energy measurements.
+
+The separate full-source comparison asks what this intervention costs. The
+`records` command reaggregates 192 saved RSA measurements, pairing raw and
+transformed source pairs by cohort and seeds at each carrier/repair setting.
+At carrier mass .02 the transformed/raw across-cohort SD ratios are about .626
+and .571 at n=512 and n=768: reductions of 37.4% and 42.9%. Mean RSA also falls
+by about .0277 and .0167, respectively. At carrier .15 the SD ratios are about
+.703–.705 and .693–.695, again with lower means. Each setting compares eight
+paired cohorts; measurements at three repair settings reuse those cohorts.
+The ratios measure standard deviation; variance ratios are their squares.
+
+The resulting choice is to use projection plus correction where both algebraic
+properties are required, while assessing full-source agreement separately.
+Reduced spread and preserved covariance do not imply preserved mean agreement.
+
+### Why the construction depends on sample size
+
+The prospective cross-degree validation tested the same construction route at
+three sample sizes. A cohort counted as successful only if it passed every
+evaluated repair setting:
+
+| Sample size | Complete cohort successes |
+|---|---:|
+| 256 | 6/8 |
+| 512 | 7/8 |
+| 768 | 8/8 |
+
+The n=256 use of this intervention was rejected. Rather than treating control
+of the shared chart as sufficient for every cohort size, the subsequent
+size-indexed construction retained the earlier untransformed small-cohort branch.
+A fresh validation on untouched n=256 cohorts recorded 7/8 complete successes
+and 455/520 passing threshold-check rows.
+
+The fresh study used different cohorts and validation conditions. Its 7/8 is
+a validation result for that branch, not a paired estimate of improvement over
+the earlier 6/8. The supported design decision is a size-indexed construction;
+success on finite test settings is also distinct from whole-interval qualification.
+`records` reports both studies separately in `size_specific_validation`.
+
+### Why the cell mechanism was retained
+
+The cell-removal ablation holds cohort seeds and repair settings fixed while
+comparing source pairs with and without the mechanism. It contains eight cohorts
+at each of three repair settings, giving 24 paired rows. Deltas are cell-off
+minus matched cell-on; `records` verifies all 120 stored metric differences.
+
+Mean micro-scale losses range from .00717 to .00733 across settings. Mean
+mesoscopic changes range from approximately -0.0000073 to +0.0000472, with
+nonzero individual changes. At each setting, the cell-off construction retained
+global-gate success in 7/8 cohorts, but local and joint qualification in 0/8;
+the cell-on reference had joint success in 7/8. The mechanism therefore mattered
+to the tested local-structure requirement even when the global gates still passed.
+
+This local-scale attribution does not make the intervention isolated across all
+metrics. Mean reverse-reconstruction $R^2$ changed by approximately -1.69 to
+-1.70, while forward reconstruction and global RSA also changed. The resulting
+choice was to retain cells for the local requirement and evaluate cross-scale
+and readout effects alongside it. The saved experiment supports that specific
+mechanistic role, rather than universal independence of construction controls.
 
 ## Executable ideal-marginal entropy bound
 

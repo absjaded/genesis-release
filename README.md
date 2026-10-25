@@ -1,21 +1,31 @@
 # Genesis
 
-Research software for constructing representations for learning systems under
-neural-derived and vision-model constraints. The intended object is a representation whose
-geometry retains useful structure from both sources and supports operations
-that neither source supplies alone. This repository implements foundations for
-that object: source analysis, controlled constructions, and numerical bounds.
+Genesis is research software for constructing representations under both
+neural-derived and vision-model constraints. The question is whether preserving
+meaningful differences alongside shared structure can support useful
+computational operations beyond matched single-source and simple fusion methods.
 
 For the same $n$ images, let $N\in\mathbb{R}^{n\times d_N}$ contain
 TRIBE-v2-predicted cortical features and $M\in\mathbb{R}^{n\times d_M}$ contain
-DINOv2 features, with rows matched by stimulus. Constructing a joint object $Z$
-requires preserving distinct source structure, controlling the construction,
-and establishing its properties under finite-sample and numerical effects.
+DINOv2 features, with rows matched by stimulus. The neural features are model
+predictions learned from human recordings; the vision features supply the
+geometry learned by an artificial neural network. The target is a joint object
+$Z$ that retains selected relationships from both sources and makes them
+available for operations computed from $Z$ itself.
+
+One candidate operation is adaptive image retrieval: use local disagreement
+between the inherited relationships to change which images count as neighbors,
+while retaining matching-image information. Its value would depend on a stable
+held-out benefit over source-only methods and fixed mixtures. Building and
+testing that operation is a research objective.
+
+The work below establishes source correspondence and develops controls for
+mathematical source families, with numerical bounds supporting qualification.
+It makes three parts of the construction problem executable: identifying
+recoverable information, enforcing geometric properties together, and checking
+their finite-sample and numerical behavior.
 
 ![Paired neural-derived and vision-model features feed source analysis. Controlled constructions and numerical bounds inform the intended joint object, shown with dashed arrows as a research target.](docs/figures/approach.svg)
-
-The neural features are model predictions learned from human recordings,
-providing the neural-derived constraints for construction.
 
 ## Source correspondence
 
@@ -83,14 +93,24 @@ blocks in place of $T$. The figure isolates the shared component of the
 construction. [Figure code](examples/plot_construction.py) uses the same public
 construction function.
 
-The saved full-source experiments also expose the trade-off: at carrier mass
-0.02, across-cohort agreement standard deviation fell **37.4% / 42.9%** at
-$n=512 / 768$, while mean agreement fell too. The `records` command reaggregates
-all 192 saved agreement measurements. A separate cell-removal comparison
-reconstructs 120 paired deltas: micro-scale effects fell by **0.00717–0.00733**,
-while mean mesoscopic changes stayed near zero, with nonzero individual changes.
-These results identify specific controls and their costs. At $n=256$, incomplete
-gate success led to a separately validated construction branch.
+## Why these construction choices
+
+Preserving structure at several scales requires controls that work together.
+The experiments compared alternatives at three points where a useful local
+change could leave another requirement unmet:
+
+| Design question | What the alternatives showed | Resulting choice |
+|---|---|---|
+| How do we control both covariance and finite-sample coupling? | Covariance correction alone left linear coupling intact. Removing coupling before restoring covariance controlled both. In a separate full-source comparison with raw cohorts, agreement SD fell **37.4% / 42.9%** at $n=512 / 768$, while mean agreement also fell. | Enforce the two properties together and measure the cost to the remaining geometry. |
+| Can the same intervention serve every sample size? | It passed every tested repair setting in **6/8, 7/8 and 8/8 cohorts** at $n=256,512,768$. | Restrict its use by sample size; retain the earlier small-cohort construction and test that branch on fresh cohorts. |
+| Which mechanism supports the required local structure? | Removing cells from seed-matched source pairs reduced mean micro-scale effects by **0.00717–0.00733**. Mean mesoscopic changes were near zero, but individual changes and readout costs remained; local qualification failed in the ablated cohorts. | Retain the cell mechanism for the tested local-structure requirement and track its effects on other measurements. |
+
+The SD reductions above use carrier mass 0.02. `construction` regenerates the
+16 shared-component comparisons; `records` reaggregates 192 full-source agreement
+measurements and checks 120 paired ablation deltas. The small-cohort follow-up
+was a separate validation, rather than a paired improvement over the earlier
+cohorts. The [construction comparisons](docs/TECHNICAL_NOTE.md#construction-choices-and-trade-offs)
+give the test conditions, costs and resulting branch choices.
 
 ## Bounds over a parameter interval
 
