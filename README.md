@@ -19,8 +19,9 @@ while retaining matching-image information. Its value would depend on a stable
 held-out benefit over source-only methods and fixed mixtures. Building and
 testing that operation is a research objective.
 
-The work below establishes source correspondence and develops controls for
-mathematical source families, with numerical bounds supporting qualification.
+The work below uses supervised learning to test source correspondence and
+develops controls for mathematical source families, with numerical bounds
+supporting qualification.
 It makes three parts of the construction problem executable: identifying
 recoverable information, enforcing geometric properties together, and checking
 their finite-sample and numerical behavior.
@@ -30,8 +31,9 @@ their finite-sample and numerical behavior.
 ## Source correspondence
 
 The first empirical question is whether information remains recoverable across
-the source geometries. With training-standardized predictors $X$ and
-training-normalized targets $Y$, the ridge readout predicts held-out rows:
+the source geometries. We train a ridge-regression model to predict one source's
+features from the other. With training-standardized predictors $X$ and
+training-normalized targets $Y$, the model predicts held-out rows:
 
 $$
 K=\frac{XX^\top}{p},\qquad
